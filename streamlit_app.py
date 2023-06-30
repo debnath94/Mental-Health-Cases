@@ -80,7 +80,7 @@ def main():
     agent = setup_chain()
 
     # Set Streamlit app title and subheader
-    st.title("MindMend")
+    st.title("Large Language Model (LLM) for Mental Health Cases")
     st.subheader("A Mental Wellness Support Chatbot")
 
     # User input text field
