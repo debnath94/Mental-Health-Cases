@@ -9,7 +9,7 @@ from langchain.prompts import PromptTemplate
 from langchain.vectorstores import DocArrayInMemorySearch
 
 _ = load_dotenv(find_dotenv())  # read local .env file
-openai.api_key = os.environ['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']
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 def setup_chain():
     # Define file path and template
